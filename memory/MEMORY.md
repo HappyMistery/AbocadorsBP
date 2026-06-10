@@ -1,0 +1,1 @@
+- [Security audit 2026-06-10](security-audit-2026-06.md) — known-but-unfixed API vulns found in a full review; critical reset_token leak enabling account takeover.
