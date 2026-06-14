@@ -7,7 +7,7 @@ TFG (bachelor's thesis, URV, 2025) and is now a **live product in production** a
 on Google Play.
 
 This root folder is **not** a code repository. It is the harness/meta repo: it holds
-project documentation and wraps three sibling projects, each of which is its **own git
+project documentation and wraps sibling projects, each of which is its **own git
 repository** (gitignored here):
 
 | Folder | What it is | Stack |
@@ -39,7 +39,7 @@ Read these before making non-trivial changes:
 3. **Secrets.** `AbocadorsBPAPI/.env` exists locally and holds real credentials (DB, Gmail
    SMTP, JWT secret, refresh-token pepper). Never read it into output, commit it, or copy
    values from it into docs.
-4. **Three separate repos.** Run git commands inside the subproject you are changing, not
+4. **Separate repos.** Run git commands inside the subproject you are changing, not
    from this root. This root repo only tracks the harness docs and `Documentació TFG/`.
 5. **Languages.** User-facing strings, emails and most code comments are in **Catalan**.
    Identifiers are in English. Keep that split; don't translate existing UI text.
